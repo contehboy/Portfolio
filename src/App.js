@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   const [currentTab, handleTabChange] = useState("About");
@@ -18,7 +19,7 @@ function App() {
       return <Portfolio />;
     }
     if (currentTab == "Resume") {
-      <About />;
+      return <Resume />;
     }
     if (currentTab == "Contact") {
       return <Contact />;

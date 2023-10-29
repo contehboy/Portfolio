@@ -269,3 +269,56 @@ footer a:hover {
   color: red;
   padding-left: 10%;
 }
+
+.resume {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.resume > * {
+  flex: 1;
+  margin: 150px;
+}
+
+.list {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 30px 0 0 60px;
+}
+
+.column3 {
+  margin-right: 0%;
+}
+
+.list {
+  margin: 10px;
+  margin-bottom: 1em;
+  background-color: #b4d9c1;
+}
+
+.download {
+  flex: 3 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.column-title {
+  color: #285950;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.column-text {
+  color: #285950;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.column-text ul li {
+  list-style: none;
+}
