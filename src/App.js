@@ -5,6 +5,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [currentTab, handleTabChange] = useState("About");
@@ -13,7 +14,7 @@ function App() {
       return <About />;
     }
     if (currentTab == "Portfolio") {
-      <About />;
+      return <Portfolio />;
     }
     if (currentTab == "Resume") {
       <About />;
