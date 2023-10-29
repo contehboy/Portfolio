@@ -222,3 +222,50 @@ footer a:hover {
   color: #0d674d;
   font-size: 18px;
 }
+
+.contact-form {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.contact-form button:hover {
+  color: #f2e3d5;
+  background: #39b269;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #02762d;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #02761b;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.contact-form button {
+  width: 10%;
+  border: none;
+  background: #d5d3d2;
+  color: #027621;
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 2%;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.error-text {
+  color: red;
+  padding-left: 10%;
+}
