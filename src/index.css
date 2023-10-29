@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #b6b8b7;
 }
 
 code {
@@ -21,7 +22,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  /**background-image: url("../src/assets/cover/5330558.jpg");*/
+  background-image: url("../src/assets/dark-grey-background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -33,12 +34,12 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #036234;
+  color: #f8faf9;
 }
 
 header a {
   text-decoration: none;
-  color: #0e592c;
+  color: #f9fcfb;
 }
 
 header nav {
@@ -167,7 +168,7 @@ footer a:hover {
 .project-text h4 {
   font-size: 26px;
   line-height: 1.5;
-  color: #75bf7c;
+  color: #024302;
 }
 .project-info {
   flex: 2 70%;
@@ -219,7 +220,7 @@ footer a:hover {
 }
 
 .project-text p {
-  color: #0d674d;
+  color: #094b38;
   font-size: 18px;
 }
 

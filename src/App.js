@@ -30,7 +30,7 @@ function App() {
       <Helmet>
         <title>Ibrahim's Portfolio</title>
       </Helmet>
-      ;
+
       <Header
         currentTab={currentTab}
         handleTabChange={handleTabChange}
